@@ -21,7 +21,7 @@ public class Assignment1 {
 				    
 				    String State1 ="Minnesota";
 				    String governorName1 = "Tim Walz";
-				    double  GasPrice1 = "3.99";
+				    double  GasPrice1 = 3.99;
 				    
 				    String State2 ="Maryland";
 				    String governorName2 = "Larry hogan";
