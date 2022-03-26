@@ -36,14 +36,14 @@ public class Assignment1 {
 				    double  GasPrice4 = 4.34;
 				    
 				    String State5 = "Ohio";
-				    String governorName5 = Mike Dewine";
+				    String governorName5 = "Mike Dewine";
 				    double GasPrice5 = 4.04;
 				    
 				    String State6 = "North Dakota";
 				    String governorName6 = "Doug Burgum";
 				    double  GasPrice6 = 3.88;
 				    
-				    String State7 = "New York;
+				    String State7 = "New York";
 				    String governorName7 = "Kathy Hochul";
 				    double  GasPrice7 = 4.37;
 				    
