@@ -13,7 +13,7 @@
 	    	String sexe1 = "Homme";
 	    	String sexe2 = "Femme";
 		Scanner scr = new Scanner(System.in);
-		System.out.print("Quel votre age? : ");
+		System.out.print(" Quel votre age? : ");
 		int age = scr.nextInt();
 		scr.nextLine();
 		System.out.print("Quel est votre sexe ?: ");
