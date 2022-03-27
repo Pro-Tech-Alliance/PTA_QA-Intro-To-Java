@@ -1,7 +1,7 @@
 /**
  * Names: "William, Sapherine, Niki, Nzele
- * 
- * Date: 03/20/2022
+ * Pro-Trainer ; Milo
+ * Date: 03/20/2022.
  * 
  * Project:
  * Get the names of governors in 10 States in the USA. 
