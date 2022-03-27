@@ -6,7 +6,7 @@ public class Student {
 	static int Age=0;
 	static double Score=0;
 	static String Grades,Gender;
-	 static Scanner scan = new Scanner(System.in);//Create an object of the Scanner class
+	 static Scanner scanner = new Scanner(System.in);//Create an object of the Scanner class
 	
 	public static void main(String[] args) {//MAIN METHOD-BRAIN
 		studentInfo();
@@ -19,25 +19,25 @@ public class Student {
 	
 	public static void studentInfo() {
 		System.out.println("What is your First Name ?");
-		firstName=scan.nextLine().toUpperCase();
+		firstName=scanner.nextLine().toUpperCase();
 		
 		System.out.println("What is your Last Name ?");
-		lastName=scan.nextLine().toUpperCase();
+		lastName=scanner.nextLine().toUpperCase();
 		
 		System.out.println("What Course do you want to take ?");
-		course=scan.nextLine().toUpperCase();
+		course=scanner.nextLine().toUpperCase();
 		
 		System.out.println("What is your Gender ?");
-		Gender=scan.nextLine().toUpperCase();
+		Gender=scanner.nextLine().toUpperCase();
 		
 		System.out.println("What is your Nationality ?");
-		Nationality=scan.nextLine().toUpperCase();
+		Nationality=scanner.nextLine().toUpperCase();
 		
 		System.out.println("What is your Score ?");
-		Score = scan.nextDouble();
+		Score = scanner.nextDouble();
 		
 		System.out.println("How old are you ?");
-		Age=scan.nextInt();
+		Age=scanner.nextInt();
 		
 	}
 	
