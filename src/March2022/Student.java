@@ -1,6 +1,6 @@
 package March2022;
 import java.util.Scanner; //Import the Scanner class library in your projec
-public class Student {
+public class Student {//START Of class
  
 	static String lastName,firstName,course,Nationality;
 	static int Age=0;
@@ -14,7 +14,7 @@ public class Student {
 		studentFile();
 		
 
-	}
+	}//END of main
 	
 	
 	public static void studentInfo() {
