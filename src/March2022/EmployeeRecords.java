@@ -9,9 +9,10 @@ public class EmployeeRecords {//class start
 	
 	
 	public static void getEmlpoyeeInputs(){
-		System.out.println("Please Enter your Last Name: ");
-		empLastName =scanner.nextLine();
+		System.out.println("Please Enter your Last Name");
+	empLastName =scanner.nextLine();
 		
+
 		System.out.println("Please Enter your First Name: ");
 		empFirstName =scanner.nextLine();
 		

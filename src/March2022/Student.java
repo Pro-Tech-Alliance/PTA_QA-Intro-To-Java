@@ -17,7 +17,10 @@ public class Student {
 	}
 	
 	
-	public static void studentInfo() {
+public static void studentInfo() {
+	
+
+	
 		System.out.println("What is your First Name ?");
 		firstName=scanner.nextLine().toUpperCase();
 		
@@ -59,7 +62,7 @@ public class Student {
 
 	public static void studentFile() {
 		
-	
+
 	System.out.println("******PRO-TECH ALLIANCE STUDENT RECORD********\n");
 		System.out.println("Name:............ "+firstName+" "+lastName);
 		System.out.println("Nationality:......"+Nationality);
@@ -68,6 +71,7 @@ public class Student {
 		System.out.println("Score:........... "+Score);
 		System.out.println("Grades:.......... "+Grades);
 		System.out.println("Age:............. "+Age+" YEARS OLD");
+		
 		
 	}
 
