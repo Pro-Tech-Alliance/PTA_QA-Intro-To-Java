@@ -1,3 +1,5 @@
+package Eyambe;
+
 //package nightClub;
 import java.util.Scanner;
 

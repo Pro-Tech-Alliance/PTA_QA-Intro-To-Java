@@ -1,3 +1,5 @@
+package Eyambe;
+
 //package EMPLOYEE_INFORMATION;
 import java.util.Scanner;
 

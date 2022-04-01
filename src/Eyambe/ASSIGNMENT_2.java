@@ -1,11 +1,5 @@
-/*
- *
- * AUTHOR EYAMBE RIGOBERT
- * EMAIL  eyamberigobert2017@gmail.com
- * DATE   26/03/2022 
- * 
- * 
- * */
+package Eyambe;
+
 
 //package ASSIGNMENT_2;
 

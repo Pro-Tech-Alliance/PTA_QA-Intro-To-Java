@@ -1,3 +1,5 @@
+package Eyambe;
+
 //package java_Inheritance;
 import java.util.Scanner;
 

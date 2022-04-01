@@ -1,3 +1,5 @@
+package Eyambe;
+
 //package Java_Methods;
 import java.util.Scanner;
 

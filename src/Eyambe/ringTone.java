@@ -1,4 +1,5 @@
-//package java_Inheritance;
+package Eyambe;
+
 
 //MY USER DEFINED CLASS
 public class ringTone {
