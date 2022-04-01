@@ -5,6 +5,8 @@ public class ExampleOFClassINstanciation {
 	public static void main(String[] args) {
 	//	ClassName objName = new ClassName(); 
 		//Intanciation
+		//make sure you fininsh your assignments
+		
 		Student getAccess = new Student();
 		getAccess.studentInfo();
 		getAccess.studentGrades();

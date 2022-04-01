@@ -21,6 +21,21 @@ public class Example_DoubleVariable {
 		System.out.println(hourlyRate);
 		
 	}
+
+	public void hourlyRate() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void salary() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void schoolFees() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }
