@@ -7,7 +7,7 @@
  * 
  * */
 
-package ASSIGNMENT_2;
+//package ASSIGNMENT_2;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package EMPLOYEE_INFORMATION;
+//package EMPLOYEE_INFORMATION;
 import java.util.Scanner;
 
 /*
