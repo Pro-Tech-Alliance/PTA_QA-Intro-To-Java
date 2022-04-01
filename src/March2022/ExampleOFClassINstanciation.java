@@ -4,7 +4,7 @@ public class ExampleOFClassINstanciation {
 
 	public static void main(String[] args) {
 	//	ClassName objName = new ClassName(); 
-		//Intanciation
+		//Instantiation;
 		Student getAccess = new Student();
 		getAccess.studentInfo();
 		getAccess.studentGrades();
