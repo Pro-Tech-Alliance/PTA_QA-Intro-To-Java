@@ -16,10 +16,10 @@ public class Example1 {
 		
 		AdditionFunction AdditionFunctionObject =new AdditionFunction();
 			
-		int number1=AdditionFunctionObject.addTwoNumbers(12, 50);
-		int number2 =AdditionFunctionObject.addFourNumber(12,22, 6,2 );
-		int number3 =AdditionFunctionObject.addFiveNumber(6,12,22, 6,2 );
-		int number4 =AdditionFunctionObject.addSixNumber(11,7,4,69,2,76 );
+		int number1=AdditionFunctionObject.addTwoNumbers(1, 1);
+		int number2 =AdditionFunctionObject.addFourNumber(1,1, 1,1 );
+		int number3 =AdditionFunctionObject.addFiveNumber(1,1,1, 1,1 );
+		int number4 =AdditionFunctionObject.addSixNumber(1,1,1,1,1,1 );
 			System.out.println("\n");
 			System.out.println(number1);
 			System.out.println(number2);
@@ -28,8 +28,8 @@ public class Example1 {
 			
 		DivisionFunction DivisionFunctionObject =new DivisionFunction();
 		
-		int division1 =DivisionFunctionObject.dividTwoNumbers(50,50 );
-		int division2 =DivisionFunctionObject.dividFourNumbers(100,3,6,2 );
+		int division1 =DivisionFunctionObject.dividTwoNumbers(10,2 );
+		int division2 =DivisionFunctionObject.dividFourNumbers(100,2,2,2 );
 		int division3 =DivisionFunctionObject.dividFiveNumbers(96,3,12,1,2 );
 		int division4 =DivisionFunctionObject.dividSixNumbers(259,7,4,20,2,16 );
 			System.out.println("\n");
