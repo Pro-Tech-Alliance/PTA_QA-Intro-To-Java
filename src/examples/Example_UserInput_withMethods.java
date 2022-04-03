@@ -1,7 +1,7 @@
 package examples;
 import java.util.Scanner;
 
-public class Example_UserInput_withMethods {
+public class Example_UserInput_withMethodsE {
 
 	public static void main(String[] args) {
 		
