@@ -38,7 +38,7 @@ public class Example1 {
 			System.out.println(division3);
 			System.out.println(division4);
 		
-			MultiplicationFunction MultiplicationFunctionObject =new MultiplicationFunction();
+		MultiplicationFunction MultiplicationFunctionObject =new MultiplicationFunction();
 			
 		int multiply1 =MultiplicationFunctionObject.multiplyTwoNumbers(50,50 );
 		int multiply2 =MultiplicationFunctionObject.multiplyFourNumbers(100,3,6,2 );
@@ -49,6 +49,18 @@ public class Example1 {
 			System.out.println(multiply2);
 			System.out.println(multiply3);
 			System.out.println(multiply4);
+			
+			SubtractionFunction SubtractionFunctionObject =new SubtractionFunction();
+			
+		int sub1 =SubtractionFunctionObject.subTwoNumbers(50,50 );
+		int sub2 =SubtractionFunctionObject.subFourNumbers(100,3,6,2 );
+		int sub3 =SubtractionFunctionObject.subFiveNumbers(96,3,12,1,2 );
+		
+			System.out.println("\n");
+			System.out.println(sub1);
+			System.out.println(sub2);
+			System.out.println(sub3);
+			
 	}
 
 }
