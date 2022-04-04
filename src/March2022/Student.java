@@ -26,10 +26,10 @@ public static void studentInfo() {
 		
 		System.out.println("What is your Last Name ?");
 		lastName=scanner.nextLine().toUpperCase();
-		
+	
 		System.out.println("What Course do you want to take ?");
 		course=scanner.nextLine().toUpperCase();
-		
+
 		System.out.println("What is your Gender ?");
 		Gender=scanner.nextLine().toUpperCase();
 		
