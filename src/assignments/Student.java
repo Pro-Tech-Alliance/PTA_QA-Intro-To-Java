@@ -1,3 +1,5 @@
+
+//Name: Fontem Ivan
 package assignments;
 import java.util.Scanner; // import the scanner class for inputs
 
@@ -10,6 +12,7 @@ public class Student {
 	static int Age=0;
 	static char Grade, Gender;
 	static double Score=0;
+	static Scanner info = new Scanner(System.in); // create the scanner
 	
 	
 	
@@ -17,25 +20,25 @@ public class Student {
 	
 	public static void studentinfo() { // create the student info method to collect student info
 		
-		Scanner info = new Scanner(System.in); // create the scanner
+		
 		
 		System.out.println("What is your first name"); // ask for the student name
 		
 		
-		Studentfirstname = info.next(); // save the first name in a variable
+		Studentfirstname = info.nextLine().toUpperCase(); // save the first name in a variable
 		
 		
 		System.out.println("What is your first name");// ask for the second  name
 		
-		Studentlastname = info.next();// save the second name in a variable
+		Studentlastname = info.nextLine().toUpperCase();// save the second name in a variable
 		
 		System.out.println("What is your course name?");// ask for the course name
 		
-		Course = info.next();// save the course name in course variable
+		Course = info.nextLine().toUpperCase();// save the course name in course variable
 		
 		System.out.println("What is your Nationality?");// ask for the student's nationality
 		
-		Nationality = info.next();// save the nationality in the nationality variable variable
+		Nationality = info.nextLine().toUpperCase();// save the nationality in the nationality variable variable
 		
         System.out.println("What is your Age?");// ask for the Age
 		
@@ -43,7 +46,7 @@ public class Student {
 		
 		System.out.println("Are you a male or female ( M for male and F for female");// ask for the gender
 		
-		Gender = info.next().charAt(0);// Save gender in the gender variable by taking the first character
+		Gender = info.next().toUpperCase().charAt(0);// Save gender in the gender variable by taking the first character
 	    
 		if(Gender=='M') {// use conditional statements to convert Char to string to be able to print gender in full
 			
@@ -58,14 +61,7 @@ public class Student {
 		
 		
 		
-		System.out.println("Welcome to this institution "+Studentfirstname+ " "+ Studentlastname); // print name
 		
-		
-		System.out.println("Your age is  "+Age+ " with nationality as "+Nationality+" Gender is "+ sex); // print the age and gender
-		
-		System.out.println("You are enrolled in "+Course); // print the course
-		
-		System.out.println();// print an empty line to make the screen clear and readable
 		
 		
 		
@@ -74,38 +70,103 @@ public class Student {
 	
 	public static void studentGrades() {// student grade method to process the grades
 		
-		Scanner info = new Scanner(System.in); // create the scanner
+	
 		
 		
 		System.out.println("What was your score out of 100?"); // ask for the score
 		
 		Score = info.nextDouble(); // save the score in the Score variable
 		
-		if (Score>=50 && Score <=59.99) { // use the conditional logic to grade the score
+		if (Score>=90 && Score <=100) { // use the conditional logic to grade the score
 			
-			Grade = 'C';
-			System.out.println("Average, keep up!");
-			
-			
-		}else if (Score>=60 && Score <=79.99) {
-			Grade = 'B';
-			System.out.println("Very good!");
-			
-			
-		}else if (Score>=80 && Score <=100) {
 			Grade = 'A';
-			System.out.println("Your are excellent!");
 			
-		} else if (Score>=0 && Score <=49.99) {
+			
+			
+		}else if (Score>=80 && Score <=89.99) {
+			Grade = 'B';
+			
+			
+			
+		}else if (Score>=70 && Score <=79.99) {
+			Grade = 'C';
+			
+			
+		} else if (Score>=60 && Score <=69.99) {
+			Grade = 'D';
+			
+			
+		} else if (Score>=50 && Score <=59.99) { 
+			
+			Grade = 'E';
+			
+		} else if (Score>=0 && Score <=49.99) { 
+			
 			Grade = 'F';
-			System.out.println("Your mark is below 50, you failed!");
 			
-		} else {
+		}
+		
+		else {
 			Grade ='X';// grade x to signify a wrong score or out of range
 			System.out.println("Your score is out of range!");
 		}
 			
-		System.out.println("Your grade is "+Grade); // print the grade at the end of the statements
+		
+		
+	}
+	
+	
+	public static void studentFile() {
+		System.out.println();
+		
+		System.out.println("Full Name:..........."+Studentfirstname+ " "+ Studentlastname); // print name
+		
+		
+		System.out.println("Age:................."+Age); // print the age and gender
+		
+		System.out.println("Nationality:..........."+Nationality);
+		
+		System.out.println("Gender:................."+sex);
+		
+
+		System.out.println("Course:................"+Course); // print the course
+		
+		System.out.println();// print an empty line to make the screen clear and readable
+		
+		System.out.println("Grade:................."+Grade); // print the grade at the end of the statements
+		
+		if (Grade=='A') { // use the conditional logic print remarks on the grade
+			
+			
+			System.out.println("Excellent!");
+			
+			
+		}else if (Grade=='B') {
+			
+			System.out.println("Very good!");
+			
+			
+		}else if (Grade == 'C') {
+			
+			System.out.println("Your are Good!");
+			
+		} else if (Grade == 'D') {
+			
+			System.out.println("You Passed!");
+			
+		} else if (Grade == 'E') {
+			
+			System.out.println("Average!");
+			
+		}else if (Grade == 'F') {
+			
+			System.out.println("Fail!");
+			
+		}else {
+			Grade ='X';// grade x to signify a wrong score or out of range
+			System.out.println("Unknown!");
+			
+		}
 		
 	}
 	
@@ -117,6 +178,7 @@ public class Student {
 		
 		studentinfo(); // call the studentinfo() method
 		studentGrades(); // call the studentgrades() method
+		studentFile();
 		
 		
 
