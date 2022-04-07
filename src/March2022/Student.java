@@ -41,8 +41,7 @@ public static void studentInfo() {
 		
 		System.out.println("How old are you ?");
 		Age=scanner.nextInt();
-		
-	}
+			}
 	
 	public static void studentGrades() {
 	
