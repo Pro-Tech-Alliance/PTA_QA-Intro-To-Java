@@ -2,7 +2,7 @@ package March2022;
 
 import java.util.Scanner;
 
-public class HealthcareAssignment {
+public class HealthcareFianlProjectAssignment {
 //fixed project
 	
 	static String ApplicantFirstName,
