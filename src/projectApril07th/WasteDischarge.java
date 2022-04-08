@@ -1,4 +1,5 @@
 /**
+ * Name: Fontem Ivan
  * This is a solid waste management project where by a user is paid for the waste deposited at a waste management facility
  * Payment depends on the type of waste and the quantity of the waste deposited.
  * The user has to specify the if the waste is Food waste, metallic waste, Glass/textile/paper, plastic or unsorted waste
