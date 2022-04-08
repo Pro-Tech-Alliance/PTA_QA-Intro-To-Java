@@ -71,7 +71,7 @@ public static void ApplicantIncome() {
 
 
 public static void ApplicantOutput() {
-		System.out.println (heading.toUpperCase());
+		System.out.println ("\n"+heading.toUpperCase());
 		System.out.println("FirstName:..............."+ApplicantFirstName.toUpperCase());
 		System.out.println("LastName:................"+ApplicantLastName.toUpperCase());
 		System.out.println("Age:....................."+ApplicantAge+"years old");
